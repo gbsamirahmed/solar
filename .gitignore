@@ -1,0 +1,17 @@
+# Public portfolio allowlist
+#
+# This repository intentionally keeps the complete research project in the
+# local working directory while tracking only the approved public files.
+# New files remain private by default until they are explicitly allowlisted.
+*
+
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/train_kde_models.ipynb
+!/visualise_model_outputs.ipynb
+
+!/assets/
+/assets/*
+!/assets/conditional-confidence-regions.png
+!/assets/p01-p10-anomaly-detection.png
